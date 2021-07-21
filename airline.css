@@ -1,0 +1,76 @@
+.colorClass {
+    color: blue;
+}
+
+.mainClass {
+    margin: 50px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+  
+.accordionClass {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  max-height: 350px;
+  overflow: auto;
+}
+
+.accordionContent {
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #DCDCDC;
+}
+
+  hr.blackLine {
+    margin-top: 0;
+    border-top: 1px solid black;
+  }
+
+  .flex-container {
+    display: flex;
+  }
+  .flex-child {
+    flex: 1;
+  }
+
+.margin-front {
+    margin-left: 50px;
+} 
+
+.margin-front-ten p {
+    margin-left: 10px;
+} 
+
+.margin-front-thirty {
+    margin-left: 30px;
+} 
+
+.margin-front-thirtys {
+  margin-right: 30px;
+} 
+
+.underline {
+    text-decoration: underline;
+}
+
+.borderBottom{
+  border-bottom:4px solid blue;
+}
+
+.panel-default > .panel-heading {
+  background-color:#000;
+}
+
+.accordion-toggle {
+  background-color: gray;
+  display: block;
+  padding: 10px;
+  margin: -10px -15px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.accordion-toggle.collapsed {
+  background-color: blue;
+}
