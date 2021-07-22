@@ -40,6 +40,11 @@
     margin-left: 10px;
 } 
 
+.unsetClass p {
+  all: initial;
+  margin-top: 10px;
+} 
+
 .underline {
     text-decoration: underline;
 }

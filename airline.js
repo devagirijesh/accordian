@@ -62,6 +62,7 @@ const checkFunction = (id, mainId) => {
         count--;
     }
     document.getElementById("SelectedValue").innerHTML = "(" + count + ")";
+    console.log("first");
 }
 
 
@@ -88,6 +89,7 @@ const selected = () => {
 }
 
 const headerClick = (headerId, contentId) => {
+    console.log("second");
     accordionHeader.forEach.call(accordionHeader, (div) => { div.style.backgroundColor = "#FFFFFF" });
 
     headerId.style.backgroundColor = "#B0B0B0"
