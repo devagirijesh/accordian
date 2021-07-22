@@ -50,6 +50,13 @@
   margin-block-end: 0px;
 }
 
+.tabsContentClass p {
+  margin-block-start: 0px; 
+  margin-block-end: 0px;
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+}
+
 .underline {
     text-decoration: underline;
 }
