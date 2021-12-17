@@ -83,6 +83,7 @@ const selected = () => {
             let tempId = document.getElementById(value);
             tempId.style.display = "block";
         })
+        console.log("test");
     } else {
         alert("None Selected");
     }
